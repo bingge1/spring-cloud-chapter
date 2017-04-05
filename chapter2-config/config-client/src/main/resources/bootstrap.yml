@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: config-client
+  cloud:
+    config:
+      profile: ${config.profile:uat}
+      name: person
+      label: master
+      uri: http://localhost:8761

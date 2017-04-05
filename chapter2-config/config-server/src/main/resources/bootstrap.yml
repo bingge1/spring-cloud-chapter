@@ -1,0 +1,10 @@
+server:
+  port: 8761
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/bingge1/configs.git
